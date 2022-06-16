@@ -20,7 +20,12 @@ class SearchTableViewController: UIViewController {
         self.viewModel.apiManager.delegate = self
         searchBar.delegate = self
         viewModel.fetchData()
+    }
+    
+    
+    func setupSearchBar(){
         searchBar.layer.cornerRadius = 25
+
     }
 
     
@@ -57,10 +62,7 @@ extension SearchTableViewController: APIManagerDelegate {
 
 extension SearchTableViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        viewModel.searchedText = searchBar.text ?? ""
-        viewModel.filterGnomes()
-        isSearching = true
-        self.tableView.reloadData()
+
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
@@ -68,8 +70,15 @@ extension SearchTableViewController: UISearchBarDelegate {
         searchBar.text = ""
         tableView.reloadData()
     }
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        isSearching = false
+    }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        viewModel.searchedText = searchBar.text ?? ""
+        viewModel.filterGnomes()
+        isSearching = true
+        self.tableView.reloadData()
         searchBar.endEditing(true)
     }
 }

@@ -19,8 +19,8 @@ class SearchVCViewModel {
     
     func filterGnomes() {
         searchedGnomes = gnomes.filter( {
-            $0.name.lowercased().prefix(searchedText.count) == searchedText.lowercased() || $0.professions.contains(where: {
-                $0.lowercased().prefix(searchedText.count) == searchedText.lowercased()
+            $0.name.lowercased().contains(searchedText.lowercased()) || $0.professions.contains(where: {
+                $0.lowercased().contains(searchedText.lowercased())
             })
             
         })
