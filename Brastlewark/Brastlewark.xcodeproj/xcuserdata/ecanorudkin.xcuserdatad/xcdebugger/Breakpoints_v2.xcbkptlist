@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7AC1AE0E-5B4F-4C09-9071-663CC986649E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A77EEB57-1639-4849-B074-07A78B9F12CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Brastlewark/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "822A3854-E440-40FC-A485-C8F42A90EDFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Brastlewark/Views/SearchViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setup(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Brastlewark/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SearchTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - 362f57b6bbcc85cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.searchBar.getter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - cd8cf10e2e8eb1df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.searchBar.setter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - e2146f5f4df8fece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - 48f07839b186734c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - 71828ac32121c987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Brastlewark.SearchTableViewController"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "258">
+               </Location>
+               <Location
+                  uuid = "CDC14C68-2141-4BB0-B1D6-811277F89F7F - 8688fe911b371600"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brastlewark.SearchTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Brastlewark.SearchTableViewController&gt;"
+                  moduleName = "Brastlewark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecanorudkin/Desktop/Dev/Brastlewark/Brastlewark/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "215">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
