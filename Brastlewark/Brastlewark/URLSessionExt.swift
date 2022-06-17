@@ -8,6 +8,7 @@
 import Foundation
 
 extension URLSession {
+    //Caching the data
     static var cachedTask: URLSession = {
         let cachesURL = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
         let diskCacheURL = cachesURL.appendingPathComponent("DownloadCache")

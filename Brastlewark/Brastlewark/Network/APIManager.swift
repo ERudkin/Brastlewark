@@ -9,6 +9,7 @@ import Foundation
 
 protocol APIManagerDelegate {
     func didRetrieveDataSuccessfully(results: [Gnome])
+    func didRetrieveDataWithError(error: Error)
 }
 
 class APIManager {
@@ -26,6 +27,7 @@ class APIManager {
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard error == nil else {
                 print("error retrieving data")
+                self.delegate?.didRetrieveDataWithError(error: error!)
                 return
 
             }

@@ -12,6 +12,7 @@ class SearchVCViewModel {
     let apiManager = APIManager()
     var gnomes: [Gnome] = []
     var searchedGnomes: [Gnome] = []
+    var selectedGnome = Gnome()
     var searchedText = ""
 //    init() {
 //        apiManager.delegate = self

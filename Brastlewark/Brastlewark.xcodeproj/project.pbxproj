@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		227CAFCD2858C07800A7F04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFCC2858C07800A7F04E /* AppDelegate.swift */; };
 		227CAFCF2858C07800A7F04E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFCE2858C07800A7F04E /* SceneDelegate.swift */; };
-		227CAFD12858C07800A7F04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFD02858C07800A7F04E /* ViewController.swift */; };
+		227CAFD12858C07800A7F04E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFD02858C07800A7F04E /* SearchViewController.swift */; };
 		227CAFD42858C07800A7F04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227CAFD22858C07800A7F04E /* Main.storyboard */; };
 		227CAFD62858C07900A7F04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227CAFD52858C07900A7F04E /* Assets.xcassets */; };
 		227CAFD92858C07900A7F04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227CAFD72858C07900A7F04E /* LaunchScreen.storyboard */; };
 		227CAFE42858C07900A7F04E /* BrastlewarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFE32858C07900A7F04E /* BrastlewarkTests.swift */; };
 		227CAFEE2858C07900A7F04E /* BrastlewarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFED2858C07900A7F04E /* BrastlewarkUITests.swift */; };
 		227CAFF02858C07900A7F04E /* BrastlewarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CAFEF2858C07900A7F04E /* BrastlewarkUITestsLaunchTests.swift */; };
-		227CB0012858C0DB00A7F04E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB0002858C0DB00A7F04E /* BaseViewController.swift */; };
 		227CB0042859C06E00A7F04E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB0032859C06E00A7F04E /* APIManager.swift */; };
 		227CB0062859C24000A7F04E /* BrastlewarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB0052859C24000A7F04E /* BrastlewarkModel.swift */; };
 		227CB0082859C55700A7F04E /* SearchVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB0072859C55700A7F04E /* SearchVCViewModel.swift */; };
 		227CB00A2859D28700A7F04E /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB0092859D28700A7F04E /* SearchViewCell.swift */; };
 		227CB00C2859D29F00A7F04E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB00B2859D29F00A7F04E /* Constants.swift */; };
 		22DE1244285A186100B135E9 /* URLSessionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1243285A186100B135E9 /* URLSessionExt.swift */; };
+		22E5E77F285B745300BF8BA2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5E77E285B745300BF8BA2 /* DetailViewController.swift */; };
+		22E5E782285B827300BF8BA2 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5E781285B827300BF8BA2 /* DetailViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,7 @@
 		227CAFC92858C07800A7F04E /* Brastlewark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brastlewark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227CAFCC2858C07800A7F04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		227CAFCE2858C07800A7F04E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		227CAFD02858C07800A7F04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227CAFD02858C07800A7F04E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		227CAFD32858C07800A7F04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		227CAFD52858C07900A7F04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227CAFD82858C07900A7F04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +57,14 @@
 		227CAFE92858C07900A7F04E /* BrastlewarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastlewarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227CAFED2858C07900A7F04E /* BrastlewarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkUITests.swift; sourceTree = "<group>"; };
 		227CAFEF2858C07900A7F04E /* BrastlewarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		227CB0002858C0DB00A7F04E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		227CB0032859C06E00A7F04E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		227CB0052859C24000A7F04E /* BrastlewarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkModel.swift; sourceTree = "<group>"; };
 		227CB0072859C55700A7F04E /* SearchVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVCViewModel.swift; sourceTree = "<group>"; };
 		227CB0092859D28700A7F04E /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
 		227CB00B2859D29F00A7F04E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22DE1243285A186100B135E9 /* URLSessionExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExt.swift; sourceTree = "<group>"; };
+		22E5E77E285B745300BF8BA2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		22E5E781285B827300BF8BA2 /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +151,9 @@
 		227CAFFC2858C09300A7F04E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				227CAFD02858C07800A7F04E /* ViewController.swift */,
-				227CB0002858C0DB00A7F04E /* BaseViewController.swift */,
-				227CB0092859D28700A7F04E /* SearchViewCell.swift */,
+				22E5E780285B824A00BF8BA2 /* TableCells */,
+				227CAFD02858C07800A7F04E /* SearchViewController.swift */,
+				22E5E77E285B745300BF8BA2 /* DetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +188,15 @@
 				227CB0032859C06E00A7F04E /* APIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		22E5E780285B824A00BF8BA2 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				227CB0092859D28700A7F04E /* SearchViewCell.swift */,
+				22E5E781285B827300BF8BA2 /* DetailViewCell.swift */,
+			);
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,14 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E5E77F285B745300BF8BA2 /* DetailViewController.swift in Sources */,
 				22DE1244285A186100B135E9 /* URLSessionExt.swift in Sources */,
 				227CB00A2859D28700A7F04E /* SearchViewCell.swift in Sources */,
-				227CAFD12858C07800A7F04E /* ViewController.swift in Sources */,
-				227CB0012858C0DB00A7F04E /* BaseViewController.swift in Sources */,
+				227CAFD12858C07800A7F04E /* SearchViewController.swift in Sources */,
 				227CB0042859C06E00A7F04E /* APIManager.swift in Sources */,
 				227CAFCD2858C07800A7F04E /* AppDelegate.swift in Sources */,
 				227CB0082859C55700A7F04E /* SearchVCViewModel.swift in Sources */,
 				227CB0062859C24000A7F04E /* BrastlewarkModel.swift in Sources */,
+				22E5E782285B827300BF8BA2 /* DetailViewCell.swift in Sources */,
 				227CAFCF2858C07800A7F04E /* SceneDelegate.swift in Sources */,
 				227CB00C2859D29F00A7F04E /* Constants.swift in Sources */,
 			);
