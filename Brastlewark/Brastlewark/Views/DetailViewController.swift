@@ -33,6 +33,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.professions = gnome.professions
+        self.friends = gnome.friends
         professionsTableView.dataSource = self
         friendsTableView.dataSource = self
         downloadImage(from: gnome.thumbnail!)
@@ -42,8 +44,7 @@ class DetailViewController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        self.professions = gnome.professions
-        self.friends = gnome.friends
+
         
     }
     
@@ -59,6 +60,7 @@ class DetailViewController: UIViewController {
     private func setupFriendsUI() {
         if friends.isEmpty{
             friendsView.isHidden = true
+            friendsTableView.isHidden = true
         }
     }
     private func setupLabels(){
